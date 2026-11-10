@@ -1,7 +1,13 @@
 # CineBook - Movie Ticket Booking System
 
 A full-stack movie ticket booking website for Bengaluru theatres. Users can sign up, browse movies, choose a show at a mall theatre, pick seats, pay (simulated), get a ticket, and receive a confirmation email.
+## Screenshots
 
+![Home](docs/screenshots/1-Home.png)
+![Shows](docs/screenshots/2-Shows.png)
+![Seats](docs/screenshots/3-Seats.png)
+![Payment](docs/screenshots/4-Payment.png)
+![Ticket](docs/screenshots/5-Ticket.png)
 ## Features
 
 - User sign up and login with JWT authentication and hashed passwords (bcryptjs)
