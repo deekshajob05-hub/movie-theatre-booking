@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>CineBook Shows</title> 
+        <link rel="stylesheet" href="style.css"> 
+    </head> 
+    <body> 
+        <header class="nav"> 
+            <a class="brand" href="index.html">CineBook</a> 
+        </header> 
+        <main class="container"> 
+            <h1 id="title">Movie</h1> 
+            <h3>Choose a show</h3> 
+            <div id="shows" class="row"></div> 
+            <div id="seatArea" class="hidden"> 
+                <h3>Choose seats</h3> 
+                <div class="screen">SCREEN</div> 
+                <div id="seats"></div> <p id="total">
+
+                </p> <button class="btn" onclick="bookSeats()">Book seats</button> 
+                <p id="msg"></p> 
+            </div> 
+        </main>
+            <script src="nav.js"></script> 
+            <script src="movie.js"></script> 
+    </body> 
+</html>

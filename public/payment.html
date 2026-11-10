@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineBook Payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">CineBook</a>
+  </header>
+  <main class="container">
+    <h1>Payment</h1>
+    <div class="theatre">
+      <h4 id="summary">Loading...</h4>
+      <p id="seatline" class="meta"></p>
+      <h3 id="amount"></h3>
+    </div>
+    <h3>Choose payment method</h3>
+    <div class="row">
+      <button class="time method" onclick="pickMethod('UPI', this)">UPI</button>
+      <button class="time method" onclick="pickMethod('Card', this)">Credit / Debit Card</button>
+      <button class="time method" onclick="pickMethod('Net Banking', this)">Net Banking</button>
+    </div>
+    <p class="meta">This is a demo. No real payment is made.</p>
+    <button id="payBtn" class="btn" onclick="pay()">Pay now</button>
+    <p id="msg"></p>
+  </main>
+  <script src="nav.js"></script>
+  <script src="payment.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body { margin: 0; font-family: Segoe UI, Arial, sans-serif; background: linear-gradient(160deg, 
+#1a1625 0%, 
+#2a2140 100%); background-attachment: fixed; color: 
+#f5efe6; min-height: 100vh; }
+h1 { font-size: 30px; font-weight: 600; color: 
+#f5efe6; border-left: 5px solid 
+#ffb4a2; padding-left: 12px; }
+h3 { color: 
+#c9b6f2; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 14px 32px; background: rgba(26, 22, 37, 0.85); border-bottom: 1px solid 
+#3d3358; position: sticky; top: 0; z-index: 5; }
+.brand { font-size: 26px; font-weight: 700; letter-spacing: 3px; text-decoration: none; background: linear-gradient(90deg, 
+#c9b6f2, 
+#ffb4a2); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.container { max-width: 1100px; margin: 28px auto; padding: 0 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 22px; }
+.card { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(201, 182, 242, 0.25); border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 10px; transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s; }
+.card:hover { transform: translateY(-6px); border-color: 
+#ffb4a2; box-shadow: 0 12px 28px rgba(255, 180, 162, 0.2); }
+.card h3 { margin: 0; color: 
+#f5efe6; font-size: 20px; }
+.meta { color: 
+#b8aed0; font-size: 13px; margin: 0; }
+.desc { font-size: 14px; line-height: 1.6; color: 
+#e0d8ee; margin: 0; flex-grow: 1; }
+.rating { color: 
+#f4d58d; font-weight: 600; font-size: 15px; }
+.btn { background: linear-gradient(90deg, 
+#c9b6f2, 
+#ffb4a2); color: 
+#2a2140; border: none; padding: 11px 16px; border-radius: 999px; text-align: center; text-decoration: none; cursor: pointer; font-weight: 700; font-size: 14px; transition: opacity 0.2s, transform 0.2s; }
+.btn:hover { opacity: 0.92; transform: scale(1.04); }
+.box { max-width: 380px; margin: 40px auto; display: flex; flex-direction: column; gap: 14px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(201, 182, 242, 0.25); border-radius: 20px; padding: 28px; }
+input { padding: 12px 16px; border-radius: 999px; border: 1px solid 
+#4a3f6b; background: rgba(26, 22, 37, 0.7); color: 
+#f5efe6; font-size: 14px; }
+input:focus { outline: none; border-color: 
+#ffb4a2; }
+#msg { color: 
+#f4d58d; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; }
+.hidden { display: none; }
+.screen { text-align: center; background: linear-gradient(#c9b6f255, #c9b6f200); border-top: 4px solid 
+#c9b6f2; padding: 10px; margin: 18px auto 24px; border-radius: 50% 50% 0 0 / 20px 20px 0 0; font-size: 12px; letter-spacing: 6px; max-width: 460px; color: 
+#d8cfee; }
+.seatrow { display: flex; gap: 8px; margin-bottom: 8px; justify-content: center; }
+.seat { width: 46px; padding: 9px 0; border: 1px solid 
+#5a4d82; border-radius: 10px 10px 4px 4px; background: 
+#3a2f57; color: 
+#f5efe6; cursor: pointer; font-size: 12px; }
+.seat:hover { background: 
+#50427a; border-color: 
+#c9b6f2; }
+.seat.picked { background: linear-gradient(90deg, 
+#c9b6f2, 
+#ffb4a2); border-color: 
+#ffb4a2; color: 
+#2a2140; font-weight: bold; }
+.seat.taken { background: 
+#1f1a2e; border-color: 
+#2c2542; color: 
+#5b5273; cursor: not-allowed; }
+.bk { margin-bottom: 14px; }
+.poster { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 12px; }
+.theatre { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(201, 182, 242, 0.25); border-radius: 14px; padding: 16px; width: 100%; box-sizing: border-box; }
+.theatre h4 { margin: 0 0 4px; color: 
+#f5efe6; font-size: 18px; }
+.time { background: transparent; border: 1px solid 
+#c9b6f2; color: 
+#c9b6f2; padding: 8px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+.time:hover { background: 
+#c9b6f2; color: 
+#2a2140; }
+#shows { flex-direction: column; }
+.navlinks { display: flex; gap: 22px; align-items: center; }
+.navlinks a { color: 
+#e0d8ee; text-decoration: none; font-size: 14px; }
+.navlinks a:hover { color: 
+#ffb4a2; }
+.cancel { background: transparent; border: 1px solid 
+#ffb4a2; color: 
+#ffb4a2; }
+.method.on { background: #c9b6f2; color: #2a2140; }
+#payBtn { margin-top: 16px; }
+.ticket { background: rgba(255, 255, 255, 0.06); border: 2px dashed #c9b6f2; border-radius: 16px; padding: 20px; margin: 16px 0; max-width: 480px; }
+.ticket h3 { margin: 0 0 6px; color: #f5efe6; font-size: 22px; }
+.ticket p { margin: 6px 0; }
